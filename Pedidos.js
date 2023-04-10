@@ -15,4 +15,4 @@ function actualizarSubtotal()
   const subtotalProducto1 = precio1 * cantidadProducto1;
   const subtotalProducto2 = precio2 * cantidadProducto2;
   subtotal1.textContent = `$${subtotalProducto1.toFixed(2)}`;
-  subtotal2.textContent = `$${subtotalProducto2.toFixed(2)} ;
+  subtotal2.textContent = `$${subtotalProducto2.toFixed(2)}`;
